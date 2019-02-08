@@ -1,0 +1,30 @@
+{
+  "name": "open",
+  "version": "1.0.0",
+  "description": "「現代版ボトルメール」をキーワードに作った、誰かの1500字以内のメッセージが飛んでくるWebサイト。",
+  "main": "app.js",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "querystring": "^0.2.0",
+    "cookie-parser": "^1.4.3",
+    "moment": "^2.22.2",
+    "serve-favicon": "^2.5.0",
+    "compression": "^1.7.3",
+    "connect-gzip-static": "^2.1.1"
+  },
+  "keywords": [
+    "ボトルメール",
+    "SNS",
+    "無人島"
+  ],
+  "author": "jyugemu",
+  "license": "GNU GPL"
+}
