@@ -26,5 +26,9 @@
     "無人島"
   ],
   "author": "jyugemu",
-  "license": "GNU GPL"
+  "license": "GNU GPL",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
 }
