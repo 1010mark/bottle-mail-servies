@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: #F5F5DC;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+}
+textarea{
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px;
+    margin: 20px auto;
+    width: 45vw;
+    height: 60vh;
+}
+.miss{
+    padding: 20px;
+}
+a{
+    margin: 0;
+    padding: 0;
+}
+span{
+    margin: 20px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    textarea{
+        font-size: 18px;
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 90vw;
+        height: 60vh;
+    }
+    span{
+        margin: 15px;
+    }
+    p{
+        margin-top: 30px;
+        padding: 0 auto;
+    }
+}
